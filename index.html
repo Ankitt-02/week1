@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Tables</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-bottom: 40px;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #ddd;
+        }
+
+        button {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Product Table</h2>
+    <table>
+        <tr>
+            <th>P_ID</th>
+            <th>P_NAME</th>
+            <th>P_COST</th>
+            <th>P_IMAGE</th>
+            <th>UPDATE</th>
+            <th>DELETE</th>
+        </tr>
+        <tr>
+            <td>111</td>
+            <td>P_ONE</td>
+            <td>10000</td>
+            <td>Flipkart</td>
+            <td><button>UPDATE</button></td>
+            <td><button>DELETE</button></td>
+        </tr>
+        <tr>
+            <td>222</td>
+            <td>P_TWO</td>
+            <td>20000</td>
+            <td>Amazon</td>
+            <td><button>UPDATE</button></td>
+            <td><button>DELETE</button></td>
+        </tr>
+        <tr>
+            <td>333</td>
+            <td>P_THREE</td>
+            <td>30000</td>
+            <td>Myntra</td>
+            <td><button>UPDATE</button></td>
+            <td><button>DELETE</button></td>
+        </tr>
+    </table>
+
+    <h2>Class Timetable</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>8:30-9:30</th>
+            <th>9:30-10:30</th>
+            <th>10:30-11:30</th>
+            <th>11:30-12:30</th>
+            <th>1:30-2:30</th>
+            <th>2:30-3:30</th>
+            <th>3:30-4:30</th>
+            <th>4:30-5:30</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>SUB1</td>
+            <td>SUB2</td>
+            <td>SUB3</td>
+            <td>LUNCH</td>
+            <td>SUB4</td>
+            <td>SUB5</td>
+            <td>COUNSELLING</td>
+            <td>CLASS</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>SUB1</td>
+            <td>SUB2</td>
+            <td>SUB3</td>
+            <td>LUNCH</td>
+            <td>SUB4</td>
+            <td>SUB5</td>
+            <td>LIBRARY</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <h2>Seminar Schedule</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Day</th>
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>8:00 am</td>
+            <td>5:00 pm</td>
+            <td>Introduction to XML</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>11:00 am</td>
+            <td>2:00 pm</td>
+            <td>XSL Transformations</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8:00 am</td>
+            <td>12:00 pm</td>
+            <td>XSL Formatting Objects</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
